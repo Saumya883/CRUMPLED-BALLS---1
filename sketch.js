@@ -21,7 +21,7 @@ function setup() {
  	bar2=new Dustbin(415,680,20,150)
 	bar3=new Dustbin(565,680,20,150)
 	paper= new Paper(400,150,50)
-	
+	 ground=new Ground(400,690,800,20)
 
 
 	Engine.run(engine);
@@ -37,6 +37,7 @@ function draw() {
   bar2.display()
   bar3.display()
   paper.display()
+  ground.display()
   drawSprites();
  
 }
